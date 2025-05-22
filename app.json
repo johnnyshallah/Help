@@ -40,6 +40,21 @@
       "description": "لاتـغيره! ",
       "value": "Telethon-Ar",
       "required": false
+    },
+    "PAYPAL_CLIENT_ID": {
+      "description": "Your PayPal Client ID.",
+      "value": "",
+      "required": false
+    },
+    "PAYPAL_CLIENT_SECRET": {
+      "description": "Your PayPal Client Secret. Treat this as sensitive information.",
+      "value": "",
+      "required": false
+    },
+    "PAYPAL_MODE": {
+      "description": "PayPal mode: 'sandbox' or 'live'. Defaults to 'sandbox'.",
+      "value": "sandbox",
+      "required": false
     }
   },
   "addons": [{
